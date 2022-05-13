@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>ToDo</title>
+
+</head>
+<body>
+    <div class="header">
+        <h1>What Yo Wanna Do Today?</h1>
+        <div class="form-container"> 
+            <form action="" name="myform" class="form-area">
+                <input name="txtBox" type="text" class="form-control txtBox" placeholder="put your tasks here...">
+                <button id="addBtn"><i class="fa fa-plus-circle"></i></button>
+            </form>
+        </div>
+    </div>
+    <section class="container">
+        <select class="filter-todos" name="todos" id="">
+            <option value="all">All</option>
+            <option value="compelted">Completed</option>
+            <option value="uncompleted">UnCompleted</option>
+        </select>  
+        <div class="todo-container">
+        </div>
+    </section>
+
+<script src="app.js"></script>
+
+</body>
+</html
